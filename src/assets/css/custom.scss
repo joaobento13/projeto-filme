@@ -1,6 +1,10 @@
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-vue/src/index.scss';
 
+html, body {
+    height: 100%;
+}
+
 textarea:focus, input:focus, button:focus{
     outline: none;
 }
@@ -13,7 +17,8 @@ textarea:focus, input:focus, button:focus{
 }
 
 .body-content {
-    min-height: 60vh;
+    width: 100%;
+    min-height: 70vh;
 }
 
 .header, .footer {
@@ -56,7 +61,7 @@ textarea:focus, input:focus, button:focus{
 
 .footer {
     background-color: #072428;
-    height: 160px;
+    height: 20vh;
 }
 
 .search {
@@ -132,6 +137,10 @@ textarea:focus, input:focus, button:focus{
 
 
 @media (max-width: 768px) {
+    .row {
+        margin: 0;
+    }
+
     .header, .footer {
         .item-menu {
             font-size: 12px;
@@ -150,7 +159,7 @@ textarea:focus, input:focus, button:focus{
         }
 
         .film-content {
-            padding: 50px;
+            padding: 10px;
             padding-top: 0px;
 
             img {
@@ -161,7 +170,7 @@ textarea:focus, input:focus, button:focus{
             .film-info {
                 margin-top: 10px;
                 border: 0.5px solid #e8e8e8;
-                min-height: 180px;
+                min-height: 200px;
 
                 .film-header {
                     margin-top: 5px;

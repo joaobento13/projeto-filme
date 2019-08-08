@@ -1,5 +1,5 @@
 <template>
-    <nav class="footer container-fluid">
+    <footer class="footer container-fluid">
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-6">
@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-    </nav>
+    </footer>
 </template>
 
 <script>
