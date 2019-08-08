@@ -97,7 +97,7 @@ export default {
     };
   },
   created() {
-    axios.get('http://www.mocky.io/v2/5d4a07203200008942600f5e')
+    axios.get('https://www.mocky.io/v2/5d4a07203200008942600f5e')
       .then((response) => {
         this.info = response.data.results;
       })
