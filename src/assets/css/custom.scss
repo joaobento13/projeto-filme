@@ -7,6 +7,9 @@ textarea:focus, input:focus, button:focus{
 
 .loading {
     min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .body-content {
@@ -81,6 +84,10 @@ textarea:focus, input:focus, button:focus{
                 background-color: black;
                 height: 30px;
                 border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
                 span {
                     font-size: 11px;
                     color: white;
