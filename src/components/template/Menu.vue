@@ -2,7 +2,7 @@
     <nav class="header container-fluid">
         <div class="row">
             <div class="col-sm-2"></div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 menu-nav">
                 <div class="row d-flex justify-content-center align-items-center">
                     <router-link to="/" class="logo col">Logo</router-link>
                     <router-link to="/" class="item-menu col">Populares</router-link>

@@ -141,9 +141,18 @@ textarea:focus, input:focus, button:focus{
         margin: 0;
     }
 
+    .header {
+        padding: 0px;
+    }
+
     .header, .footer {
-        .item-menu {
-            font-size: 12px;
+        .menu-nav {
+            padding: 0px;
+
+            .item-menu {
+                font-size: 12px;
+                padding: 8px;
+            }
         }
     }
 
